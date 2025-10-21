@@ -3,6 +3,8 @@ A deep learning model for detecting image forgery using Error Level Analysis and
 
 Our model leverages Error Level Analysis (ELA) for preprocessing and a Convolutional Neural Network (CNN) integrated with Convolutional Block Attention Module (CBAM) for enhanced feature extraction and classification accuracy.
 
+The dataset used is CASIA 2.0 having 12614 images out of which 7491 are real and 5123 are tampered images.
+
 **Overview**
 
 The project pipeline involves three major components:
@@ -14,6 +16,7 @@ CNN Model — Learns discriminative features from ELA-transformed images to clas
 CBAM Attention Module — Improves model focus by adaptively refining spatial and channel-wise feature maps.
 
 **Key Features**
+
 Preprocessing using Error Level Analysis (ELA)
 
 Deep learning-based CNN classifier
